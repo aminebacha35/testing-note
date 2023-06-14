@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;}
+.menu{
+  width: 15%;
+background-image: linear-gradient(180deg,#4e73df 10%,#224abe 100%);
+box-shadow: 5px 5px 5px rgb(206, 206, 206);
+}
+
+
+
+.menu h1{
+  margin-top: 1vw;
+  text-align: center;
+  color: white;
+  font-size: 1.5vw;
+}
+
+.formulaire input{
+margin-top: 1vw;
+margin-left:1.3vw;
+padding-top:0.5vw;
+padding-bottom:0.5vw;
+padding-left:1vw
+}
+
+.formulaire textarea{
+  margin-top: 1vw;
+  margin-left: 0.2vw;
+padding-top:0.5vw;
+padding-bottom:0.5vw;
+padding-left:0.2vw
+}
+
+.formulaire button{
+  margin-left : 2.5vw;
+  margin-top: 1vw;
+  background-color: #03274a;
+  border: none;
+  color: white;
+  padding: 0.8vw 2.5vw;
+  text-decoration: none;
+  cursor: pointer;  
+}
+
+.formulaire button:hover{
+
+  background-color: #03264a76;
+
+}
+
+.droite{
+  width: 85%;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+
+.premtitle{
+  text-align: center;
+  font-size: 2vw;
+margin-top: 1vw;
+}
+
+
+.piza{
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+
+
+
+
+.edit{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(12, 11, 11, 0.986);
+  top:0;
+  left:0;
+
+  
+}
+.edit form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap:2vw;
+  margin-top: 10vw;
+
+}
+.edit input{
+  width: 20vw;
+  font-size: 1.5vw;
+  padding-top:0.5vw;
+padding-bottom:0.5vw;
+padding-left:1vw
+
+}
+
+.edit textarea{
+  width: 20vw;
+  font-size: 1.5vw;
+
+padding-top:0.5vw;
+padding-bottom:0.5vw;
+padding-left:0.2vw
+
+}
+
+.edit button{
+  background-color: #023f7c;
+  border: none;
+  color: white;
+  padding: 1vw 5vw;
+  text-decoration: none;
+  cursor: pointer;  
+}
+
+.edit button:hover{
+  background-color: #023f7c9c;
+
+}
+
+.edit p{
+color:white;
+font-size: 1.5vw;
+margin-bottom: -1vw;
+}
+
+.search input {
+  width: 50vw;
+  font-size: 2vw;
+  padding-left: 2vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  margin-top: 2vw;
+}
+
+.mainn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:2vw;
+}
+
+.trie{
+  font-size: 2vw;
+  display: flex;
+  flex-direction:row;
+  gap:3vw
+}
+
+.trie select{
+  font-size: 1.2vw;
+  background-color: #202121;
+  border: none;
+  color: white;
+  padding: 0.2vw 1vw;
+  text-decoration: none;
+  margin-left: 0.5vw;
+  cursor: pointer;
+
+}
+
+
+.note{
+  font-size: 2vw;
+  
+}
+
+
+table{
+  border-spacing: 1vw;
+}
+
+.tablee:hover{
+  cursor: pointer;
+  background-color: #84838314 !important;
+}
